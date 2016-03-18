@@ -1,3 +1,12 @@
+## General usage of the plotX.R files
+
+The plotX.R files each generate the corresponding plotX.png files. 
+In order to execute the drawPlot function in the plotX.R file you need to make sure that your working directory is able to access the
+"exdata-data-household_power_consumption" directory directly and is allowed to write to this folder as the original dataset is filtered and
+saved as a new file to  work more efficiently.
+
+When you're able to work with the data set you can execute each drawPlot function to generate the graphs in the corresponding graphic device/file.
+
 ## Introduction
 
 This assignment uses data from
